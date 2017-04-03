@@ -5,12 +5,12 @@
   <key>host</key>
   <string>https://cvicensa.us.demos.redhatmobile.com</string>
   <key>appid</key>
-  <string>2575q2giosgsjporhhthv7nx</string>
+  <string>myapp-ip</string>
   <key>projectid</key>
-  <string>2575q2hca2o37qqpdwnor4en</string>
+  <string>my-project-id</string>
   <key>appkey</key>
-  <string>736c11c45487eca9e8b29655f662aecb020def95</string>
+  <string>my-app-key</string>
   <key>connectiontag</key>
-  <string>0.0.24</string>
+  <string>x.y.z</string>
 </dict>
 </plist>
