@@ -16,6 +16,17 @@ Source: https://github.com/cvicens/quickstart-react-native
 ## React Native installation
 To install React Native (and its CLI), please go to [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)
 
+### If you want to avoid reading the guide...
+* Install node (v6+)
+* Install React Native CLI `npm install -g react-native-cli`
+* Test your installation
+
+```
+react-native init TestProject
+cd TestProject
+react-native run-ios
+```
+
 ## What is it?
 This application is abasic React Native client side template, it should be used in combination with the [HelloWorld cloud app](https://github.com/feedhenry-templates/helloworld-cloud). Refer to `ios/fhconfig.json` for configuration.
 
