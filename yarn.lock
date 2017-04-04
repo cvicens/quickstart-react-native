@@ -2885,9 +2885,9 @@ raw-body@~2.1.2:
     iconv-lite "0.4.13"
     unpipe "1.0.0"
 
-rct-fh@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/rct-fh/-/rct-fh-0.0.9.tgz#00649f576be6156f7cc513bfffab9e2782ee2482"
+rct-fh@^0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/rct-fh/-/rct-fh-0.0.10.tgz#5ecff9b09887a4e4484839cb4c2dda8500faac7c"
 
 react-clone-referenced-element@^1.0.1:
   version "1.0.1"
