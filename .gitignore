@@ -3,3 +3,4 @@
 node_modules
 ios/Pods
 ios/Podfile.lock
+xcuserdata/
