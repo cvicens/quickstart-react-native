@@ -7,7 +7,7 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"rct-fh": "^0.0.10",
+		"rct-fh": "^0.0.14",
 		"react": "~15.4.1",
 		"react-native": "0.42.3"
 	},
