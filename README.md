@@ -42,19 +42,19 @@ This application and its cloud services are available as a project template in R
 If you wish to contribute to this template, the following information may be helpful; otherwise, RHMAP and its build facilities are the preferred solution.
 
 ###  Prerequisites  
- * rct-fh : 0.0.9+
+ * rct-fh : 0.0.14+
  * react-native : 0.42.3
 
 ## Build instructions
- * npm install
- * Edit `ios/fhconfig.plist` to include the relevant information from RHMAP.  
- * Build and run locally. This should start the iOS simulator, deploy the app and run it. `react-native run-ios`
-
+ * npm install or yarn install
+ * Edit ``ios/fhconfig.plist`` to include the relevant information from RHMAP.  
+ * Run pod install inside ./ios
+ * Build and run locally. This should start the iOS simulator, deploy the app and run it. ``react-native run-ios``
 
 ### npm dependencies
-As we have stated before this template depends on `rct-fh` the repository of this npm module is [here](https://gitlab.com/cvicens/RCTFH).
+As we have stated before this template depends on ``rct-fh`` the repository of this npm module is [here](https://gitlab.com/cvicens/RCTFH).
 
 ### Updating rct-fh version
 To update the SDK:
-- change the version in `package.json`
-- run `npm install` 
+- change the version in ``package.json``
+- run ``npm install``
