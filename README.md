@@ -10,6 +10,7 @@ Source: https://github.com/cvicens/quickstart-react-native
 
 **Prerequisites:**
 
+- CocoaPods (for iOS)
 - react-native-cli: 2.0.1
 - react-native: 0.42.3
 
@@ -48,7 +49,7 @@ If you wish to contribute to this template, the following information may be hel
 ## Build instructions
  * npm install or yarn install
  * Edit ``ios/fhconfig.plist`` to include the relevant information from RHMAP.  
- * Run pod install inside ./ios
+ * Run `pod install` inside the `./ios` folder
  * Build and run locally. This should start the iOS simulator, deploy the app and run it. ``react-native run-ios``
 
 ### npm dependencies
