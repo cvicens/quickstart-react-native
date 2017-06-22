@@ -11,8 +11,10 @@ Source: https://github.com/cvicens/quickstart-react-native
 **Prerequisites:**
 
 - CocoaPods (for iOS)
+- iOS 8, 9, 10 [SDK supported configuration](https://access.redhat.com/node/2357761)
 - react-native-cli: 2.0.1
 - react-native: 0.42.3
+- rct-fh : 0.0.14+ [documentation](https://www.npmjs.com/package/rct-fh)
 
 ## React Native installation
 To install React Native (and its CLI), please go to [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html)
@@ -23,32 +25,27 @@ To install React Native (and its CLI), please go to [Getting Started](https://fa
 * Test your installation
 
 ```
-react-native init TestProject
-cd TestProject
-react-native run-ios
+$ react-native init TestProject
+$ cd TestProject
+$ react-native run-ios
 ```
 
 ## What is it?
-This application is abasic React Native client side template, it should be used in combination with the [HelloWorld cloud app](https://github.com/feedhenry-templates/helloworld-cloud). Refer to `ios/fhconfig.json` for configuration.
+This application is a basic React Native client side template, it should be used in combination with the [HelloWorld cloud app](https://github.com/feedhenry-templates/helloworld-cloud).
 
-If you do not have access to a RHMAP instance, you can sign up for a free instance at [https://openshift.feedhenry.com/](https://openshift.feedhenry.com/).
+## How do I run it {only iOS for now}  
 
-## How do I run it?  
+### Create a new iOS App in Studio
 
-### RHMAP Studio
+- Create a new iOS Objective-C Application in your RHMAP project
+- Open the 'Editor' and copy the contents of ./helloworld-ios-app/fhconfig.plist
 
-This application and its cloud services are available as a project template in RHMAP as part of the "Backbone Hello World Project" template.
+### Adapt RHMAP iOS fhconfig.plist file in our RN application 
 
-### Local Clone (ideal for Open Source Development)
-If you wish to contribute to this template, the following information may be helpful; otherwise, RHMAP and its build facilities are the preferred solution.
-
-###  Prerequisites  
- * rct-fh : 0.0.14+
- * react-native : 0.42.3
+Edit `ios/fhconfig.plist` and paste the contents copied in the previous step
 
 ## Build instructions
  * npm install or yarn install
- * Edit ``ios/fhconfig.plist`` to include the relevant information from RHMAP.  
  * Run `pod install` inside the `./ios` folder
  * Build and run locally. This should start the iOS simulator, deploy the app and run it. ``react-native run-ios``
 
